@@ -1,4 +1,4 @@
----
+
 ## 📚 Reference & Credits
 This blog is an educational interpretation of the paper:  
 **LoRA: Low-Rank Adaptation of Large Language Models (2021)**  
@@ -7,7 +7,7 @@ This blog is an educational interpretation of the paper:
 
 All figures included here are taken directly from the paper and belong to the original authors.  
 If the authors prefer that these figures not be used, please contact me and I will remove or replace them immediately.  
----
+
 
 
 
