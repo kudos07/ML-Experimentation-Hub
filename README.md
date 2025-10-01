@@ -1,28 +1,15 @@
-# LoRA Blog – Beginner-Friendly Walkthrough
-
-This project is a **Next.js + Node.js** single-page blog that explains the paper  
-**[LoRA: Low-Rank Adaptation of Large Language Models (Hu et al., 2021)](https://arxiv.org/abs/2106.09685)**  
-in a clear, visual, and beginner-friendly way.
-
 ---
+## 📚 Reference & Credits
+This blog is an educational interpretation of the paper:  
+**LoRA: Low-Rank Adaptation of Large Language Models**  
+Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Weizhu Chen, and Jianfeng Gao.  
+*arXiv preprint arXiv:2106.09685, 2021*  
 
-## 🙏 Immense Credit to the Researchers
-All the ideas, results, and figures in this blog come directly from the groundbreaking work of the LoRA authors:  
+📄 Original paper: [https://arxiv.org/abs/2106.09685](https://arxiv.org/abs/2106.09685)  
 
-- **Edward J. Hu**  
-- **Yelong Shen**  
-- **Phillip Wallis**  
-- **Zeyuan Allen-Zhu**  
-- **Yuanzhi Li**  
-- **Shean Wang**  
-- **Weizhu Chen**  
-- **Jianfeng Gao**
+All figures included here are taken directly from the paper and belong to the authors.  
+If any of the authors prefer that these figures not be used, please contact me and I will remove or replace them immediately.  
 
-This blog is only an **educational interpretation** aimed at beginners. The research credit belongs entirely to these authors.  
-
-Paper link: [https://arxiv.org/abs/2106.09685](https://arxiv.org/abs/2106.09685)  
-
----
 
 ## 📖 What’s Inside
 The blog walks through LoRA step by step:
