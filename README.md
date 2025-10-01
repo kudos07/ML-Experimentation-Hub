@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LoRA Blog – Beginner-Friendly Walkthrough
 
-## Getting Started
+This project is a **Next.js + Node.js** single-page blog that explains the paper  
+**[LoRA: Low-Rank Adaptation of Large Language Models (Hu et al., 2021)](https://arxiv.org/abs/2106.09685)**  
+in a clear, visual, and beginner-friendly way.
 
-First, run the development server:
+---
+
+## 🙏 Immense Credit to the Researchers
+All the ideas, results, and figures in this blog come directly from the groundbreaking work of the LoRA authors:  
+
+- **Edward J. Hu**  
+- **Yelong Shen**  
+- **Phillip Wallis**  
+- **Zeyuan Allen-Zhu**  
+- **Yuanzhi Li**  
+- **Shean Wang**  
+- **Weizhu Chen**  
+- **Jianfeng Gao**
+
+This blog is only an **educational interpretation** aimed at beginners. The research credit belongs entirely to these authors.  
+
+Paper link: [https://arxiv.org/abs/2106.09685](https://arxiv.org/abs/2106.09685)  
+
+---
+
+## 📖 What’s Inside
+The blog walks through LoRA step by step:
+1. Introduction  
+2. Problem Statement – Why not fine-tune everything?  
+3. Key Definitions (fine-tuning, adapters, prefix tuning, etc.)  
+4. How LoRA introduces low-rank updates (math + toy example)  
+5. How well does LoRA perform? (results with accuracy vs. parameters)  
+6. Scaling LoRA to Large Models (GPT-3, storage/memory savings)  
+7. Hyperparameters: rank r and scaling α  
+8. Why LoRA is Practical  
+9. Conclusion  
+
+All figures shown are taken directly from the original paper (Hu et al., 2021).  
+
+---
+
+## 🚀 Running Locally
+
+Clone this repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/kudos07/ML-Experimentation-Hub.git
+cd ML-Experimentation-Hub
