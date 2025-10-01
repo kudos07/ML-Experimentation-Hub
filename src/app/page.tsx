@@ -61,7 +61,7 @@ export default function Home() {
         {/* Image block */}
         <div style={{ minWidth: "220px", maxWidth: "300px", flexShrink: 0 }}>
           <img
-            src="/images/lora-arch.png"
+            src="/ML-Experimentation-Hub/images/lora-arch.png"
             alt="LoRA Diagram"
             style={{
               width: "100%",
@@ -311,7 +311,7 @@ vs. 1,000,000 in full fine-tuning`}
         {/* Image block */}
         <div style={{ marginTop: "1.5rem", marginBottom: "1rem" }}>
           <img
-            src="/images/lora-results.png"
+            src="/ML-Experimentation-Hub/images/lora-results.png"
             alt="LoRA results showing validation accuracy vs trainable parameters"
             style={{
               width: "100%",
@@ -418,7 +418,7 @@ vs. 1,000,000 in full fine-tuning`}
         {/* Image block */}
         <div style={{ marginTop: "1rem", marginBottom: "1rem" }}>
           <img
-            src="/images/lora-rank-sensitivity.png"
+            src="/ML-Experimentation-Hub/images/lora-rank-sensitivity.png"
             alt="LoRA accuracy across different rank values"
             style={{
               width: "100%",
